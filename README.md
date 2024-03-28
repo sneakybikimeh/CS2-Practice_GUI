@@ -35,24 +35,31 @@ It comes with two additional files containing utility aliases, and a practice_gu
 Here's a few picture to give you an idea how it works :
 
 Booting up the server
+
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/f9fa6812-6a92-499e-b64c-d136feebe905)
 
 Loading the config
+
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/361ab487-9ff1-427c-b648-8c9c422c9681)
 
 Practiceon
+
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/3422238f-e3d3-4362-a0f5-5201796c084e)
 
 Practiceoff
+
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/3fdd3b6b-be07-4960-a942-97408763e3d6)
 
 Pracbhopon
+
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/3cc19b99-de9e-4e5d-a2bd-13f10f8b878b)
 
 PracWb2on
+
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/60056e53-fee8-4ef6-930a-53ce2fa193ef)
 
 Pracsound
+
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/9f5af7e8-1b65-4b9d-a021-88635dbc6d51)
 
 
