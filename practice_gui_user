@@ -1,0 +1,266 @@
+// INSTALLATION : 
+// SAVE THE FILES INTO "~/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/game/csgo/cfg" 
+// MAKE SURE TO DOUBLE CHECK THE PATH : 
+// CS2'S FOLDER IS HERE "../>>>>>game<<<<</csgo/cfg"
+// THIS ONE "../csgo/cfg" IS CS:GO'S FOLDER
+
+// IF YOU JUST WANT TO USE THIS CONFIG BUT DONT KNOW HOW CONFIG WORKS, 
+// JUST SET YOUR BINDINGS AT THE END OF FILE (+ UNCOMMENT YOUR CHANGES, OTHERWISE IT WON'T GET EXECUTED) 
+// SAVE THE FILE
+// BOOT UP CS2 ON A PRIVATE PRACTICE LOBBY, PREFERABLY CASUAL MODE (Following the steps provided with images in the README, if you start a server with map de_dust, it won't work!) :
+// Game Menu -> PLAY -> Practice -> Casual -> Select Map -> GO
+
+// TYPE "SV_CHEATS 1" (IT IS REQUIRED TO LOAD THE PRACTICE_GUI.CFG)
+// TYPE "EXEC_ASYNC PRACTICE_GUI" IN YOUR CS2 CONSOLE TO GET STARTED
+// HERE'S A COPY PASTE FOR YOUR CONVENIENCY : 
+// "sv_cheats 1; exec_async practice_gui"
+
+// A SELF EXPLANATORY GUIDE WILL BE DISPLAYED IN YOUR CONSOLE
+
+
+
+
+
+
+
+// Here you can alter the behaviour of the aliases called from the GUI :
+
+// 0. ⚠ UNCOMMENT ONLY IF YOU WANT TO OVERWRITE DEFAULT SETTINGS IN THE GUI, THESES ALIASES WILL GET EXECUTED AFTER THE INITIALSETUP ⚠
+// 1. First line is the toggle/cycle command that you can bind to the key you want, its content define the default value of the cycle.
+// 1.1. Each toggle command cycle through every values of the aliases available in the GUI.
+// 2. [prac...1] is the alias command that will get executed by [prac...on], you can modify it to your likings.
+// 3. [prac...2,prac...3,etc..] are custom values available on a few commands that you can modify to your likings.
+// 4. [prac...0] is the alias command that will get executed by [prac...off], you can modify it to your likings.
+// 5. [prac...on] is the toggleON command, you can bind it but should not modify it, will surely break the GUI.
+// 6. [prac...1on,prac...2on,prac...3on, etc..] are custom values available on a few commands that you can bind, but should not modify, will surely break the GUI.
+// 7. [prac...off] is the toggleOFF command you can bind it but should not modify it, will surely break the GUI.
+ 
+
+
+// MAIN SWITCHES WITH GUI FUNCTIONALITIES
+// // SERVER PRACTICE
+// alias "pracset" "pracseton"// alias "pracset1" "sv_cheats 1; mp_maxmoney 60000; mp_startmoney 60000; mp_roundtime_defuse 0; mp_roundtime 60; mp_freezetime 2; mp_round_restart_delay 1; sv_warmup_to_freezetime_delay 1; mp_team_intro_time 0; mp_drop_knife_enable 1; mp_restartgame 1"
+// alias "pracset0" "mp_maxmoney 16000; mp_startmoney 800; mp_roundtime_defuse 0; mp_roundtime 5; mp_freezetime 6; mp_team_intro_time 6.5; mp_round_restart_delay 7; sv_warmup_to_freezetime_delay 4; mp_drop_knife_enable 0; mp_restartgame 1"
+// bind "KEY" "pracset"				// Cycle/Toggle Bind
+// bind "KEY" "pracseton"		// ToggleON
+// bind "KEY" "pracsetoff"			// ToggleOFF
+
+
+// // STUFF PRACTICE SWITCH
+// alias "pracstuff" "pracstuffon"
+// alias "pracstuff1" "pracgreon; pracwbon"
+// alias "pracstuff0" "pracgreoff; pracwboff"
+// bind "KEY" "pracstuff"			// Cycle/Toggle Bind
+// bind "KEY" "pracstuffon"			// ToggleON
+// bind "KEY" "pracstuffoff"		// ToggleOFF
+
+
+// // GRENADE PRACTICE SWITCH
+// alias "pracgre" "pracgreon"
+// alias "pracgre1" "sv_grenade_trajectory_prac_trailtime 8; sv_grenade_trajectory_prac_pipreview 1; sv_grenade_trajectory_time_spectator 4; mp_death_drop_grenade 3; cl_sim_grenade_trajectory 1"
+// alias "pracgre0" "sv_grenade_trajectory_prac_trailtime 0; sv_grenade_trajectory_prac_pipreview 0; mp_death_drop_grenade 2; cl_sim_grenade_trajectory 0"
+// bind "KEY" "pracgre"				// Cycle/Toggle Bind
+// bind "KEY" "pracgreon"			// ToggleON
+// bind "KEY" "pracgreoff"			// ToggleOFF
+
+
+// // WALLBANG PRACTICE SWITCH
+// alias "pracwb" "pracwbon"
+// alias "pracwb1" "sv_infinite_ammo 1; sv_showimpacts 2"
+// alias "pracwb2" "sv_infinite_ammo 1; sv_showimpacts 1"
+// alias "pracwb3" "sv_infinite_ammo 1; sv_showimpacts 2; sv_showimpacts_penetration 2; sv_showimpacts_time 10"
+// alias "pracwb0" "sv_showimpacts 0; sv_showimpacts_penetration 0; sv_showimpacts_time 4"
+// bind "KEY" "pracwb"				// Cycle/Toggle Bind
+// bind "KEY" "pracwbon"			// ToggleON
+// bind "KEY" "pracwboff"			// ToggleOFF
+// bind "KEY" "pracwb1on"			// InfiniteAmmo + Show Impacts Client Side
+// bind "KEY" "pracwb2on"			// InfiniteAmmo + Show Impacts Server Side
+// bind "KEY" "pracwb3on"			// InfiniteAmmo + Show Impacts Informations
+
+
+// // BHOP PRACTICE SWITCH
+// alias "pracbhop" "pracbhopon"
+// alias "pracbhop1" "sv_autobunnyhopping 1; sv_enablebunnyhopping 1; sv_jump_spam_penalty_time 0; sv_accelerate_use_weapon_speed 0; sv_maxspeed 5000; sv_maxvelocity 3500; sv_stopspeed 100; sv_staminamax 0; sv_staminajumpcost 0; sv_staminalandcost 0; sv_staminarecoveryrate 0; sv_airaccelerate 2000"
+// alias "pracbhop0" "sv_autobunnyhopping 0; sv_enablebunnyhopping 0; sv_jump_spam_penalty_time 0.015625; sv_accelerate_use_weapon_speed 1; sv_maxspeed 320; sv_maxvelocity 3500; sv_stopspeed 80; sv_staminamax 80; sv_staminajumpcost 0.08; sv_staminalandcost 0.05; sv_staminarecoveryrate 60; sv_airaccelerate 12"
+// bind "KEY" "pracbhop"			// Cycle/Toggle Bind
+// bind "KEY" "pracbhopon"			// ToggleON
+// bind "KEY" "pracbhopoff"			// ToggleOFF
+
+
+// // LEGIT AUTOBHOP PRACTICE SWITCH
+// alias "praclbhop" "praclbhopon"
+// alias "praclbhop1" "sv_enablebunnyhopping false; sv_autobunnyhopping false; sv_jump_spam_penalty_time 0.015625; sv_accelerate_use_weapon_speed true; sv_maxspeed 320.000000; sv_maxvelocity 3500.000000; sv_stopspeed 80.000000; sv_staminamax 80.000000; sv_staminajumpcost 0.080000; sv_staminalandcost 0.050000; sv_staminarecoveryrate 60.000000; sv_airaccelerate 2000.000000"
+// alias "praclbhop2" "sv_autobunnyhopping true; sv_enablebunnyhopping false; sv_jump_spam_penalty_time 0.015625; sv_accelerate_use_weapon_speed true; sv_maxspeed 320.000000; sv_maxvelocity 3500.000000; sv_stopspeed 80.000000; sv_staminamax 80.000000; sv_staminajumpcost 0.080000; sv_staminalandcost 0.050000; sv_staminarecoveryrate 60.000000; sv_airaccelerate 2000.000000"
+// alias "praclbhop0" "pracbhopoff"
+// bind "KEY" "praclbhop"			// Cycle/Toggle Bind
+// bind "KEY" "praclbhopon"			// ToggleON
+// bind "KEY" "praclbhopoff"		// ToggleOFF
+// bind "praclbhop1on" 				// Legit Bhop (SCROLL)
+// bind "praclbhop2on" 				// Legit Bhop (AUTO)
+
+
+// // BOT PRACTICE SWITCH
+// alias "pracbot" "pracboton; pracbot_fill"
+// alias "pracbot1" "bot_quota 64; bot_stop 1; bot_difficulty 0; bot_ignore_enemies 1; bot_ignore_players 1; bot_dont_shoot 1; bot_defer_to_human_goals 1; bot_defer_to_human_items 1; bot_chatter minimal"
+// alias "pracbot0" "bot_quota 64; bot_stop 0; bot_difficulty 1; bot_ignore_enemies 0; bot_ignore_players 0; bot_dont_shoot 0; bot_defer_to_human_goals 0; bot_defer_to_human_items 0; bot_chatter normal"
+// bind "KEY" "pracbot"				// Cycle/Toggle Bind
+// bind "KEY" "pracboton"			// ToggleON
+// bind "KEY" "pracbotoff"			// ToggleOFF
+// bind "KEY" "pracbot_ct" 			// bot_add_ct
+// bind "KEY" "pracbot_t" 			// bot_add_t
+// bind "KEY" "pracbot_kick" 		// bot_kick
+// bind "KEY" "pracbot_fill" 		// bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_ct; bot_add_t; bot_add_t; bot_add_t; bot_add_t; bot_add_t
+
+
+// // BUY MENU SWITCH
+// alias "pracbuy" "pracbuyoff"
+// alias "pracbuy1" "mp_buytime 9999; mp_buy_anywhere 1; mp_buy_during_immunity 0"
+// alias "pracbuy0" "mp_buytime 90; mp_buy_anywhere 0; mp_buy_during_immunity 1"
+// bind "KEY" "pracbuy"				// Cycle/Toggle Bind
+// bind "KEY" "pracbuyon"			// ToggleON
+// bind "KEY" "pracbuyoff"			// ToggleOFF
+
+
+// // INFINITE AMMO SWITCH
+// alias "pracammo" "pracammoon"
+// alias "pracammo1" "ammo_grenade_limit_total 6; sv_infinite_ammo 1"
+// alias "pracammo0" "ammo_grenade_limit_total 4; sv_infinite_ammo 0"
+// bind "KEY" "pracammo"			// Cycle/Toggle Bind
+// bind "KEY" "pracammoon"			// ToggleON
+// bind "KEY" "pracammooff"			// ToggleOFF
+
+
+// // GOD MODE SWITCH
+// alias "pracgod" "pracgodon"
+// alias "pracgod1" "sv_regeneration_force_on 1; buddha 1; buddha_reset_hp 50; buddha_ignore_bots 1"
+// alias "pracgod0" "buddha 0; sv_regeneration_force_on 0"
+// bind "KEY" "pracgod"				// Cycle/Toggle Bind
+// bind "KEY" "pracgodon"			// ToggleON
+// bind "KEY" "pracgodoff"			// ToggleOFF
+
+
+// // PRACTICE MAIN SWITCH
+// alias "practice" "practiceon"
+// alias "practice1" "pracreprint0; pracseton;pracstuffon; pracbhopon; pracbuyon; pracammoon; pracgodon; pracreprinton"
+// alias "practice0" "pracreprint0; pracstuffoff; praclbhopoff; pracbhopoff; bot_kick; pracbuyoff; pracammooff; pracgodoff; pracsetoff; pracreprinton"
+// bind "KEY" "practice"			// Cycle/Toggle Bind
+// bind "KEY" "practiceon"			// ToggleON
+// bind "KEY" "practiceoff"			// ToggleOFF
+
+
+// Bot commands with description
+// cmd_name                                 | Value  | Default   | Description / Usage
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// bot_add                                  |        |           | <t|ct> <type> <difficulty> <name> - Adds a bot matching the given criteria.
+// bot_add_ct                               |        |           | <type> <difficulty> <name> - Adds a Counter-Terrorist bot matching the given criteria.
+// bot_add_t                                |        |           | <type> <difficulty> <name> - Adds a terrorist bot matching the given criteria.
+// bot_chatter                              | minimal| normal    | Control how bots talk. Allowed values: 'off', 'radio', 'minimal', or 'normal'.
+// bot_controllable                         | 1      | 1         | Determines whether bots can be controlled by players
+// bot_crouch                               | 0      | 0         | 
+// bot_difficulty                           | 0      | 1         | Defines the skill of bots joining the game.  Values are: 0=easy, 1=normal, 2=hard, 3=expert.
+// bot_dont_shoot                           | 1      | 0         | If nonzero, bots will not fire weapons (for debugging).
+// bot_goto_mark                            |        |           | Sends a bot to the marked nav area (useful for testing navigation meshes)
+// bot_goto_selected                        |        |           | Sends a bot to the selected nav area (useful for testing navigation meshes)
+// bot_ignore_enemies                       | 1      | 0         | If nonzero, bots will ignore enemies (for debugging).
+// bot_ignore_players                       | 1      | 0         | Bots will not see non-bot players.
+// bot_join_after_player                    | 1      | 1         | If nonzero, bots wait until a player joins before entering the game.
+// bot_join_team                            | any    |           | Determines the team bots will join into. Allowed values: 'any', 'T', or 'CT'.
+// bot_kick                                 |        |           | <all> <t|ct> <type> <difficulty> <name> - Kicks a specific bot, or all bots, matching the given criteria.
+// bot_kill                                 |        |           | <all> <t|ct> <type> <difficulty> <name> - Kills a specific bot, or all bots, matching the given criteria.
+// bot_knives_only                          | 1      | 0         | the bots to only using knives
+// bot_mimic                                | 0      |           | replicated Bot uses usercmd of player by index.
+// bot_mimic_spec_buttons                   | 1      | 1         | +attack, +jump etc are used for spectator control instead of being passed on to spectated bot
+// bot_mimic_yaw_offset                     | 180    |           | The bots will look at the specified yaw offset in relation to the player
+// bot_pistols_only                         | 0      | 0         | The bots to only using pistols
+// bot_place                                |        |           | Places a bot from the map at where the local player is pointing.
+// bot_quota                                | 0      | 10        | Determines the total number of bots in the game.
+// bot_stop                                 | 1      | 0         | Bot will remain inactive
+
+
+
+
+// PRACTICE TOOLS ALIASES
+
+// Reload Practice_GUI Config
+alias "practice_gui" "sv_cheats 1; exec_async practice_gui"
+// bind "KEY" "practice_gui"
+
+// Fadenade Key
+alias "fadenade" "ent_fire smokegrenade_projectile kill; ent_fire molotov_projectile kill; ent_fire flashbang_projectile kill; ent_fire hegrenade_projectile kill; ent_fire decoy_projectile kill;stopsound"
+// bind "KEY" "fadenade"
+
+// Zoom Key
+alias "+viewzoom" "fov_cs_debug 30"
+alias "-viewzoom" "fov_cs_debug 0"
+//bind "KEY" "+viewzoom"
+
+
+// alias "playmusic" "playmusic_01"		// DEFAULT VALUE
+// bind "KEY" "playmusic"					// PLAY CURRENT SONG IN STACK, THEN SKIPS TO THE NEXT ONE
+// bind "KEY" "music_help"					// WILL DISPLAY MUSICPLAYER USAGE IN CONSOLE
+// bind "KEY" "musicplayeron" 				// START MUSICPLAYER
+// bind "KEY" "musicplayeroff"				// STOPS MUSICPLAYER
+// bind "KEY" "musicplayer1"				// SKIP TO NEXT MUSIC
+// bind "KEY" "print_musicplayer1"			// WILL SHOW WHICH SOUND IS CURRENTLY PLAYED
+
+// alias "playambiance" "playambiance_01"
+// bind "KEY" "playambiance"
+// bind "KEY" "ambiance_help" "ambianceplayerecho1"
+// bind "KEY" "ambianceplayeron" "alias ambianceplayer_val ambianceplayer_val1; pracprint; ambianceplayersound1; ambianceplayerecho1; #echoln; #echoln; ambianceplayer1; alias ambianceplayer ambianceplayeroff"
+// bind "KEY" "ambianceplayeroff" "alias ambianceplayer_val ambianceplayer_val0; pracprint; ambianceplayersound0; ambianceplayerecho0; #echoln; #echoln; print_ambianceplayer_val0; ambianceplayer0; alias ambianceplayer ambianceplayeron"
+// bind "KEY" "ambianceplayer1"
+// bind "KEY" "print_ambianceplayer1"
+
+// Sound Player Volume (Will affect every sounds in-game)
+// snd_toolvolume "1"		// Game Default Value
+// snd_toolvolume "0.2"		// Recommended Value
+
+// Print the GUI
+alias helpprac "pracmsg" 	// Print the available commands
+alias prachelp "pracmsg" 	// Print the available commands
+// bind "KEY" "pracmsg"
+
+// Toggle Console + Print GUI (Might be broken)
+alias "conbind" "pracmsg;toggleconsole"
+// bind "KEY" "conbind"
+
+// Reboot lobby
+alias "+prac_reboot" "pracseton"				// Practice Server Startup
+alias "-prac_reboot" "mp_warmup_end 5"			// Warmup End
+// bind "KEY" "+prac_reboot"
+
+
+// // BINDINGS
+// 
+// // GUI BINDINGS
+// bind "KEY" "pracstuff"					// Drop pretty much anything instantly
+// bind "KEY" "pracgre"						// Grenades switch (ON/OFF)
+// bind "KEY" "pracwb"						// Wallbang switch (Client/Server/Information/OFF)
+// bind "KEY" "pracbhop"					// Auto bhop switch (ON/OFF)
+// bind "KEY" "praclbhop"					// Legit bhop switch (Scroll/auto/normal)
+// bind "KEY" "pracbuy"						// Buy switch (anywhere-whenever/normal)
+// bind "KEY" "pracammo"					// Ammo switch (infinite/infinitemags/normal)
+// bind "KEY" "pracgod"						// Godmode switch (ON/OFF)
+// bind "KEY" "practice"					// Practice switch (every commands in the GUI ON/OFF)
+// bind "KEY" "pracset"						// Practice server setup (ON/OFF) ⚠ WILL RESTART LOBBY ⚠
+// 
+// // BOT BINDINGS
+// bind "KEY" "pracbot"						// Server will be filled by static bots
+// bind "KEY" "pracbot_fill"				// Add 5 bots in each team
+// bind "KEY" "pracbot_ct"					// Add 1 CT bot
+// bind "KEY" "pracbot_t"					// Add 1 T bot
+// bind "KEY" "pracbot_kick"				// Kick all bots
+// 
+// // BONUS BINDINGS
+// bind "KEY" "fadenade"					// Remove any grenade entity
+// bind "KEY" "+viewzoom"					// Custom Zoom on keypress
+// bind "KEY" "sv_rethrow_last_grenade"		// Rethrow Last Grenade
+//
+// // MUSIC BINDINGS
+
+// bind "KEY" "pracmsg"					// Force the display of GUI in console
+
+//// UNTIL VALVE FIXES ////
+
+// If you want to setup a server with more than 9 bots, you'll have to start a game in practice -> casual/deathmatch, otherwise your team will be limited to 10 players
+// If you try to setup a server with the command map, sv_cheats will not function unless you booted a practice server beforehand
