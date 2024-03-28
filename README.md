@@ -25,7 +25,7 @@ It comes with two additional files containing utility aliases, and a practice_gu
 # Usage
 - A self explanatory documentation will be displayed into the GUI in your console under this format :
   
-        VARS (STATUS) | ToggleCmd / ToggleOnCmd / ToggleOffCmd
+        VARS (STATUS) | CycleCmd / ToggleOnCmd / ToggleOffCmd
 
 - Toggle practice mode ON and OFF by simply typing "practice" in your console for example.
 
