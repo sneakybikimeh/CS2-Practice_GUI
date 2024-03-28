@@ -12,7 +12,7 @@ It comes with two additional files containing utility aliases, and a practice_gu
         Game Menu -> PLAY -> Practice -> Casual -> Select Map -> GO
 
 2.1 In case your console spit a bunch of errors, just type "practice_gui" and you should be good to go !
-
+  
         practice_gui
 
 4. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
@@ -63,3 +63,4 @@ Pracsound
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/9f5af7e8-1b65-4b9d-a021-88635dbc6d51)
 
 
+Have fun practicing for the grind ! :)
