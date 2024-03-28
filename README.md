@@ -11,8 +11,8 @@ It comes with two additional files containing utility aliases, and a practice_gu
 
         Game Menu -> PLAY -> Practice -> Casual -> Select Map -> GO
 
-2.1 In case your console spit a bunch of errors, just type "practice_gui" and you should be good to go !
-  
+3. In case your console spit a bunch of errors, just type "practice_gui" and you should be good to go !
+
         practice_gui
 
 4. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
