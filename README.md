@@ -7,15 +7,19 @@ It comes with two additional files containing utility aliases, and a practice_gu
 
         ...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
 
-2. Launch the game, boot up a practice server where you can turn on sv_cheats 1 and type in the console the following command: "exec_async practice_gui.cfg".
+2. Launch the game, boot up a practice server where you can turn on sv_cheats 1.
 
         Game Menu -> PLAY -> Practice -> Casual -> Select Map -> GO
 
-3. In case your console spit a bunch of errors, just type "practice_gui" and you should be good to go !
+3.  Now that you're in the server, you can type in the following commands to your console :
+
+        sv_cheats 1; exec_async practice_gui.cfg
+
+4. In case your console spit a bunch of errors, just type "practice_gui" and you should be good to go !
 
         practice_gui
 
-4. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
+5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
 
 # Usage
 - A self explanatory documentation will be displayed into the GUI in your console under this format :
@@ -32,7 +36,8 @@ It comes with two additional files containing utility aliases, and a practice_gu
 - Everytime you change map, you will need to type "practice_gui" in your console since the server convars gets overwritten.
 - The GUI will not keep in memory any var that is changed manually in the console.
 
-Here's a few picture to give you an idea how it works :
+# Examples
+Here's a few screenshots to give you an idea of how it works :
 
 Booting up the server
 
