@@ -4,7 +4,7 @@ This practice_gui.cfg file lets you setup a practice server very easy to tweak t
 It comes with two additional files containing utility aliases, and a practice_gui_user.cfg file to enable easy modifications with some documentation.
 
 # Installation
-0. If you are using an autoexec, you can just paste this line into it so you just have to type "practice_gui" to use this config (after dropping the files into the right folder).
+0. If you are using an autoexec, you can just paste this line into it so you just have to type "practice_gui" in console to use this config (after dropping the files into the right folder).
 
         alias "practice_gui" "sv_cheats 1; exec_async practice_gui"
 
