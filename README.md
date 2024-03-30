@@ -77,3 +77,17 @@ Pracsound
 
 
 Have fun practicing for the grind ! :)
+
+
+
+# FUTURE UPDATES
+I'm currently still working on this set of configs, I'm planning on adding :
+- Easy teleport binds > practice_gui_user.
+- New features I haven't though of just yet / that gets requested > practice_gui.
+- A complete documentation panel for the GUI > practice_gui.
+- Specific documentation on each commands ([praccommand]_help will add a man entry on the line after the command with all the available values) > practice_gui.
+
+# KNOWN ISSUES
+- practice toggle is kinda broken atm, some values won't get switched properly, use practiceon/practiceoff for reliable behaviour.
+- +pracnoclip has reverse behaviour if pracnoclipon/noclip is enabled beforehand.
+- crouchwalking with pracbhopon is currently cursed.
