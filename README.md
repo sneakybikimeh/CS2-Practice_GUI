@@ -4,6 +4,11 @@ This practice_gui.cfg file lets you setup a practice server very easy to tweak t
 It comes with two additional files containing utility aliases, and a practice_gui_user.cfg file to enable easy modifications with some documentation.
 
 # Installation
+0. If you are using an autoexec, you can just paste this line into it so you just have to type "practice_gui" to use this config (after dropping the files into the right folder)
+
+        alias "practice_gui" "sv_cheats 1; exec_async practice_gui"
+
+
 1. Open the archive and extract its content into the following path folder :
 
         ...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
@@ -21,6 +26,8 @@ It comes with two additional files containing utility aliases, and a practice_gu
         practice_gui
 
 5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
+
+
 
 # Usage
 - A self explanatory documentation will be displayed into the GUI in your console under this format :
