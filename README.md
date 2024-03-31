@@ -30,7 +30,7 @@ It comes with two additional files containing utility aliases, and a practice_gu
 
 
 # Usage
-- A self explanatory documentation will be displayed into the GUI in your console under this format :
+- A self explanatory documentation will be displayed on the GUI in your console under this format :
   
         VARS (STATUS) | CycleCmd / ToggleOnCmd / ToggleOffCmd
 
@@ -81,12 +81,9 @@ Have fun practicing for the grind ! :)
 
 
 # FUTURE UPDATES
-I'm currently still working on this set of configs, I'm planning on adding :
-- Easy teleport binds > practice_gui_user. (Overcooked)
-- A complete documentation panel for the GUI > practice_gui. (In the hoven)
-- Specific documentation on each commands ([praccommand]_help will add a man entry on the line after the command with all the previously modified values) > practice_gui. (Undercooked)
+I'm currently working on this set of configs, I'm planning on adding :
+- Specific documentation on each commands ([praccommand]_help will add a man entry on the line after the command with all the previously modified values) > practice_gui. (Cooking)
 - New features I haven't though of just yet / that gets requested > practice_gui.
 
 # KNOWN ISSUES
 - +pracnoclip has reverse behaviour if pracnoclipon/noclip is enabled beforehand.
-- crouchwalking with pracbhopon is currently cursed.
