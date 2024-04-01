@@ -1,5 +1,6 @@
 # CS2-Practice_GUI
 This practice_gui.cfg file lets you setup a practice server very easy to tweak through console with a GUI for CS2, it does not require the other files.
+Its main goal is to be noob friendly, so don't get overwhelmed by the installation, it's actually very easy !
 
 It comes with two additional files containing utility aliases, and a practice_gui_user.cfg file to enable easy modifications with some documentation.
 
@@ -27,7 +28,8 @@ It comes with two additional files containing utility aliases, and a practice_gu
 
 5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
 
-
+# Customization
+If you want to modify stuff in this config, I would recommend you to use practice_gui_user.cfg, you will find some documentation on how to do so, modifying the practice_gui.cfg will probably break the GUI in many ways.
 
 # Usage
 - A self explanatory documentation will be displayed on the GUI in your console under this format :
