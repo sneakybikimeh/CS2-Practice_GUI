@@ -84,13 +84,13 @@ Have fun practicing for the grind ! :)
 
 ### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
+- Firstperson / Thirdperson
+- Wallhacks
+- HUD ON/OFF
+- Viewmodel ON/OFF
+- Flashlight pointer bind
+- Lock Camera bind
+- Unlock yaw limits + mouse invert
+- Customizable colors for the GUI
 - Specific documentation on each commands ([praccommand]_help will add a man entry on the line after the command with all the current modified values) > practice_gui.
 - New features I haven't though of just yet / that gets requested > practice_gui :
-        - Firstperson / Thirdperson
-        - Wallhacks
-        - HUD ON/OFF
-        - Viewmodel ON/OFF
-        - Flashlight pointer bind
-        - Lock Camera bind
-        - Unlock yaw limits + mouse invert
-        - Customizable colors for the GUI
