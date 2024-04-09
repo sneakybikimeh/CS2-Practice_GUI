@@ -4,7 +4,7 @@ Its main goal is to be noob friendly, so don't get overwhelmed by the installati
 
 It comes with two additional files containing utility aliases, and a practice_gui_user.cfg file to enable easy modifications with some documentation.
 
-# Installation
+## Installation
 0. If you are using an autoexec, you can just paste this line into it so you just have to type "practice_gui" in console to use this config (after dropping the files into the right folder).
 
         alias "practice_gui" "sv_cheats 1; exec_async practice_gui"
@@ -28,10 +28,10 @@ It comes with two additional files containing utility aliases, and a practice_gu
 
 5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
 
-# Customization
+## Customization
 If you want to modify stuff in this config, I would recommend you to use practice_gui_user.cfg, you will find some documentation on how to do so, modifying the practice_gui.cfg will probably break the GUI in many ways.
 
-# Usage
+## Usage
 - A self explanatory documentation will be displayed on the GUI in your console under this format :
   
         VARS (STATUS) | CycleCmd / ToggleOnCmd / ToggleOffCmd
@@ -46,7 +46,7 @@ If you want to modify stuff in this config, I would recommend you to use practic
 - Everytime you change map, you will need to type "practice_gui" in your console since the server convars gets overwritten.
 - The GUI will not keep in memory any var that is changed manually in the console.
 
-# Examples
+## Examples
 Here's a few screenshots to give you an idea of how it works :
 
 Booting up the server
@@ -82,10 +82,15 @@ Have fun practicing for the grind ! :)
 
 
 
-# FUTURE UPDATES
+### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
-- Specific documentation on each commands ([praccommand]_help will add a man entry on the line after the command with all the previously modified values) > practice_gui. (Cooking)
-- New features I haven't though of just yet / that gets requested > practice_gui.
-
-# KNOWN ISSUES
-- +pracnoclip has reverse behaviour if pracnoclipon/noclip is enabled beforehand.
+- Specific documentation on each commands ([praccommand]_help will add a man entry on the line after the command with all the current modified values) > practice_gui.
+- New features I haven't though of just yet / that gets requested > practice_gui :
+        - Firstperson / Thirdperson
+        - Wallhacks
+        - HUD ON/OFF
+        - Viewmodel ON/OFF
+        - Flashlight pointer bind
+        - Lock Camera bind
+        - Unlock yaw limits + mouse invert
+        - Customizable colors for the GUI
