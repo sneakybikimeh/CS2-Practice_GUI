@@ -94,7 +94,7 @@ I'm currently working on this set of configs, I'm planning on adding :
 (+/-) an update will follow for practice_gui_user.cfg and README.md in the upcomming days.
 (+/-) mp_match_end_restart added into pracset
 (+/-) improvements to the loadbar + loadicon (@Lund1337)
-(+) a lot of documentation (pracman/pracman2) 
+(+) a lot of documentation (pracman/pracman2)
 (+) specific commands manual => praccmd_help
 (+) praccolor + advanced color customization for the GUI
 (+) pracwh
