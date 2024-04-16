@@ -84,13 +84,24 @@ Have fun practicing for the grind ! :)
 
 ### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
-- Firstperson / Thirdperson
-- Wallhacks
-- HUD ON/OFF
-- Viewmodel ON/OFF
 - Flashlight pointer bind
 - Lock Camera bind
 - Unlock yaw limits + mouse invert
-- Customizable colors for the GUI
-- Specific documentation on each commands ([praccommand]_help will add a man entry on the line after the command with all the current modified values) > practice_gui.
 - New features I haven't though of just yet / that gets requested > practice_gui :
+
+### NEW UPDATE
+(+/-) improved the behaviour of a lot of stuff, almost everything have been reworked/improved, replacing practice_gui.cfg is highly recommended
+(+/-) an update will follow for practice_gui_user.cfg and README.md in the upcomming days.
+(+/-) mp_match_end_restart added into pracset
+(+/-) improvements to the loadbar + loadicon (@Lund1337)
+(+) a lot of documentation (pracman/pracman2) 
+(+) specific commands manual => praccmd_help
+(+) praccolor + advanced color customization for the GUI
+(+) pracwh
+(+) pracsmokehide
+(+) pracpov
+(+) practpose
+(+) pracpitch
+(+) prachud
+(+) pracvm
+(...) probably forgot about something...
