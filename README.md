@@ -1,11 +1,12 @@
 # CS2-Practice_GUI
-This practice_gui.cfg file lets you setup a practice server very easy to tweak through console with a GUI for CS2, it does not require the other files.
+This `practice_gui.cfg` file lets you setup a practice server very easy to tweak through console with a GUI for CS2, it does not require the other files.
 Its main goal is to be noob friendly, so don't get overwhelmed by the installation, it's actually very easy !
+It also fits advanced user with very in-depths functionalities !
 
-It comes with two additional files containing utility aliases, and a practice_gui_user.cfg file to enable easy modifications with some documentation.
+It comes with two additional files containing utility aliases, and a `practice_gui_user.cfg` file to enable easy modifications with some documentation.
 
 ## Installation
-0. If you are using an autoexec, you can just paste this line into it so you just have to type "practice_gui" in console to use this config (after dropping the files into the right folder).
+0. If you are using an `autoexec`, you can just paste this line into it so you just have to type `practice_gui` in console to use this config (after dropping the files into the right folder).
 
         alias "practice_gui" "sv_cheats 1; exec_async practice_gui"
 
@@ -14,7 +15,7 @@ It comes with two additional files containing utility aliases, and a practice_gu
 
         ...\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\
 
-2. Launch the game, boot up a practice server where you can turn on sv_cheats 1.
+2. Launch the game, boot up a practice server where you can turn on `sv_cheats 1`.
 
         Game Menu -> PLAY -> Practice -> Casual -> Select Map -> GO
 
@@ -22,29 +23,29 @@ It comes with two additional files containing utility aliases, and a practice_gu
 
         sv_cheats 1; exec_async practice_gui.cfg
 
-4. In case your console spit a bunch of errors, just type "practice_gui" and you should be good to go !
+4. In case your console spit a bunch of errors, just type `practice_gui` and you should be good to go !
 
         practice_gui
 
 5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
 
 ## Customization
-If you want to modify stuff in this config, I would recommend you to use practice_gui_user.cfg, you will find some documentation on how to do so, modifying the practice_gui.cfg will probably break the GUI in many ways.
+If you want to modify stuff in this config, I would recommend you to use `practice_gui_user.cfg`, you will find some documentation on how to do so, modifying the `practice_gui.cfg` will probably break the GUI in many ways.
 
 ## Usage
 - A self explanatory documentation will be displayed on the GUI in your console under this format :
   
         VARS (STATUS) | CycleCmd / ToggleOnCmd / ToggleOffCmd
 
-- Toggle practice mode ON and OFF by simply typing "practice" in your console for example.
+- Toggle practice mode ON and OFF by simply typing `practice` in your console for example.
 
-- Type helpprac to display the GUI in your console in order to see the current status of the vars.
+- Type `helpprac` to display the GUI in your console in order to see the current status of the vars.
 
-- Type give_[nameofitem] to get it dropped instantly. (alias_stuff.cfg)
-- Type [nameofmap] to change map instantly. (alias_maps.cfg)
+- Type `give_[nameofitem]` to get it dropped instantly. (`alias_stuff.cfg`)
+- Type `[nameofmap]` to change map instantly. (`alias_maps.cfg`)
 
-- Everytime you change map, you will need to type "practice_gui" in your console since the server convars gets overwritten.
-- The GUI will not keep in memory any var that is changed manually in the console.
+- Everytime you change map, you will need to type `practice_gui` in your console since the server convars gets overwritten.
+- The GUI will not keep in memory any cvar that is changed manually in the console.
 
 ## Examples
 Here's a few screenshots to give you an idea of how it works :
@@ -84,25 +85,24 @@ Have fun practicing for the grind ! :)
 
 ### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
-- New features I haven't though of just yet / that gets requested > practice_gui :
+- New features I haven't though of just yet / that gets requested > `practice_gui` :
 
 ### NEW UPDATE
 - (+) Flashlight pointer bind
 - (+) Lock Camera bind
-- (+) Unlock yaw limits + mouse invert
-- (+/-) pracwb
-- (+/-) pracsmoke
-- (+/-) pracwh
+- (+) `pracpitch` + `reverse_aiming` / `+reverse_aiming` : Unlock yaw limits + mouse invert
+- (+/-) `pracwb`
+- (+/-) `pracsmoke`
+- (+/-) `pracwh`
 
 
-- (+/-) improved the behaviour of a lot of stuff, almost everything have been reworked/improved, replacing practice_gui.cfg and practice_gui.cfg is highly recommended
-- (+/-) mp_match_end_restart added into pracset
+- (+/-) improved the behaviour of a lot of stuff, almost everything have been reworked/improved, replacing `practice_gui.cfg` and `practice_gui.cfg` is highly recommended
+- (+/-) `mp_match_end_restart` added into `pracset`
 - (+/-) improvements to the loadbar + loadicon (@Lund1337)
-- (+) a lot of documentation (pracman/pracman2)
-- (+) specific commands manual => praccmd_help
-- (+) praccolor + advanced color customization for the GUI
-- (+) pracpov
-- (+) practpose
-- (+) pracpitch
-- (+) prachud
-- (+) pracvm
+- (+) a lot of documentation (`pracman` / `pracman2`)
+- (+) specific commands manual => `[praccmd]_help`
+- (+) `praccolor` + advanced color customization for the GUI
+- (+) `pracpov`
+- (+) `practpose`
+- (+) `prachud`
+- (+) `pracvm`
