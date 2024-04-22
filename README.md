@@ -58,9 +58,13 @@ Loading the config
 
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/361ab487-9ff1-427c-b648-8c9c422c9681)
 
-Practiceon
+Config has been loaded
 
 ![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/de5d67f2-cba5-4304-843b-2fd7a0b0e324)
+
+Practiceon
+
+![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/ce51ac99-a862-407d-a29c-6691248d978f)
 
 Practiceoff
 
