@@ -33,7 +33,7 @@ It comes with two additional files containing utility aliases, and a `practice_g
 If you want to modify stuff in this config, I would recommend you to use `practice_gui_user.cfg`, you will find some documentation on how to do so, modifying the `practice_gui.cfg` will probably break the GUI in many ways.
 
 ## Usage
-- A self explanatory documentation will be displayed on the GUI in your console under this format :
+- A self explanatory documentation will be displayed through the GUI in your console under this format :
   
         VARS (STATUS) | CycleCmd / ToggleOnCmd / ToggleOffCmd
 
