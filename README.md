@@ -60,32 +60,37 @@ Loading the config
 
 Practiceon
 
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/3422238f-e3d3-4362-a0f5-5201796c084e)
+![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/de5d67f2-cba5-4304-843b-2fd7a0b0e324)
 
 Practiceoff
 
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/3fdd3b6b-be07-4960-a942-97408763e3d6)
+![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/bdaadc34-aa8d-485f-97bb-4b2b463eaa3c)
 
 Pracbhopon
 
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/3cc19b99-de9e-4e5d-a2bd-13f10f8b878b)
+![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/2edc5d85-30dc-4e55-b95b-55b2446a21bc)
 
 PracWb2on
 
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/60056e53-fee8-4ef6-930a-53ce2fa193ef)
+![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/b5c50e8c-e42f-4b16-97f5-123f8184e9ad)
 
 Pracsound
 
-![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/9f5af7e8-1b65-4b9d-a021-88635dbc6d51)
+![image](https://github.com/sneakybikimeh/CS2-Practice_GUI/assets/151694137/db43fa95-deda-48ec-9944-93cda5aff873)
 
 
 Have fun practicing for the grind ! :)
 
 
 
+### KNOWN ISSUES
+Lastly added commands aren't included into `practiceon`/`practiceoff` just yet.
+
 ### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
 - New features I haven't though of just yet / that gets requested > `practice_gui` :
+
+
 
 ### NEW UPDATE
 - (+) Flashlight pointer bind
@@ -94,7 +99,6 @@ I'm currently working on this set of configs, I'm planning on adding :
 - (+/-) `pracwb`
 - (+/-) `pracsmoke`
 - (+/-) `pracwh`
-
 
 - (+/-) improved the behaviour of a lot of stuff, almost everything have been reworked/improved, replacing `practice_gui.cfg` and `practice_gui.cfg` is highly recommended
 - (+/-) `mp_match_end_restart` added into `pracset`
