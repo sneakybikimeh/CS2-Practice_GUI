@@ -39,12 +39,12 @@ If you want to modify stuff in this config, I would recommend you to use `practi
 
 - Toggle practice mode ON and OFF by simply typing `practice` in your console for example.
 
-- Type `helpprac` to display the GUI in your console in order to see the current status of the vars.
+- Type `helpprac` to display the GUI in your console to see the current status of the vars.
 
 - Type `give_[nameofitem]` to get it dropped instantly. (`alias_stuff.cfg`)
 - Type `[nameofmap]` to change map instantly. (`alias_maps.cfg`)
 
-- Everytime you change map, you will need to type `practice_gui` in your console since the server convars gets overwritten.
+- Everytime you change map, you will need to type `practice_gui` (rebooting the cfg) in your console since the server convars gets overwritten.
 - The GUI will not keep in memory any cvar that is changed manually in the console.
 
 ## Examples
