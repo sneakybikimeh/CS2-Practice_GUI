@@ -88,12 +88,13 @@ Have fun practicing for the grind ! :)
 
 
 ### KNOWN ISSUES
-Lastly added commands aren't included into `practiceon`/`practiceoff` just yet.
+- Lastly added commands aren't included into `practiceon`/`practiceoff` just yet.
+- The usage of custom fonts in CS2 can break the layout of the GUI, I'm looking for a solution but different fonts can have different spacing which makes it odd to overcome. 
+
 
 ### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
 - New features I haven't though of just yet / that gets requested > `practice_gui` :
-
 
 
 ### NEW UPDATE
