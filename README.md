@@ -86,32 +86,45 @@ Pracsound
 Have fun practicing for the grind ! :)
 
 
-
 ### KNOWN ISSUES
-- Lastly added commands aren't included into `practiceon`/`practiceoff` just yet.
+- Lastly added commands aren't included into `pracman` just yet.
 - The usage of custom fonts in CS2 can break the layout of the GUI, I'm looking for a solution but different fonts can have different spacing which makes it odd to overcome. 
 
 
 ### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
-- New features I haven't though of just yet / that gets requested > `practice_gui` :
+- Adding control over the gui_interface through custom radialradios wheel ! > `practice_gui` :
+- Change knife skin on a keypress
+- Map configs including default map spawns aliases on radialradios wheel with map automatic detection... Maybe?
+- Grenades / Wallbang setups... Maybe?
 
 
 ### NEW UPDATE
-- (+) Flashlight pointer bind
-- (+) Lock Camera bind
-- (+) `pracpitch` + `reverse_aiming` / `+reverse_aiming` : Unlock yaw limits + mouse invert
-- (+/-) `pracwb`
-- (+/-) `pracsmoke`
-- (+/-) `pracwh`
 
-- (+/-) improved the behaviour of a lot of stuff, almost everything have been reworked/improved, replacing `practice_gui.cfg` and `practice_gui.cfg` is highly recommended
-- (+/-) `mp_match_end_restart` added into `pracset`
-- (+/-) improvements to the loadbar + loadicon (@Lund1337)
-- (+) a lot of documentation (`pracman` / `pracman2`)
-- (+) specific commands manual => `[praccmd]_help`
-- (+) `praccolor` + advanced color customization for the GUI
-- (+) `pracpov`
-- (+) `practpose`
-- (+) `prachud`
-- (+) `pracvm`
+#### ADDED :
+- Added `cl_allow_multi_input_binds` support in the GUI
+- Reworked the loadbar interface completely for fancier and more accurate animation, even added custom color templates !
+- Added `prac_showpos` support
+- Added many niche aliases to bind in `practice_gui_user.cfg` 
+
+#### MODIFIED :
+- Improved the behaviour of `praccolor` in the GUI
+- Updated/Tweaked many `prac_cmds` + cleanup of the `prac_help`, there might be wrong values that I missed
+- Fixed various bugs/typos/missalignments
+- Improved `prac_noclip` behaviour in GUI
+- Modified `pracset`, added commands for faster reboot (removed game start animation screen)
+- Added `praclbhop` values
+- Improved `pracbot` setup in order to be able to place bots facing the player easily
+- Improved `pracbuy` setup for less buy limitations, it might have unexpected repercussions, but it is now possible to buy unlimited weapons (zeus included), only buy limit will be with grenades, which is not a big deal
+- Improved `pracwh`, with a new value
+- A recent update broke the `practpose`, some cursed stuff will occur upon usage
+
+#### REMOVED :
+- `spec_xray_dropped_unoccluded` from prachud because valve deprecated the cvar
+- `spec_xray_dropped_defusekits` from prachud because valve deprecated the cvar
+- `spec_hide_players` from prachud because valve deprecated the cvar
+
+#### NOTE :
+- `pracman` has not been updated yet, consider it outdated
+- `pracset` might have unexpected behaviour when used manually, will have to look into it
+- It has been a big merge so some stuff might have broke without notice !
