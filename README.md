@@ -93,6 +93,7 @@ Have fun practicing for the grind ! :)
 
 ### FUTURE UPDATES
 I'm currently working on this set of configs, I'm planning on adding :
+- Hint_text will soon be added for HUD Feedback ! 
 - Control over the gui_interface through custom radialradios wheel ! > `practice_gui` :
 - Change knife skin on a keypress
 - Map configs including default map spawns aliases on radialradios wheel with map automatic detection... Maybe?
