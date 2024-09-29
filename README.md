@@ -3,7 +3,9 @@ This `practice_gui.cfg` file lets you setup a practice server very easy to tweak
 Its main goal is to be noob friendly, so don't get overwhelmed by the installation, it's actually very easy !
 It also fits advanced user with very in-depths functionalities !
 
-It comes with two additional files containing utility aliases (`alias_maps.cfg` and `alias_stuff.cfg`), one file that adds a visual feature (`practice_gui_hint.cfg`) and a `practice_gui_user.cfg` file to enable easy modifications with some documentation, this very last one should be the only one to be modified unless you want to break everything !
+It comes with two additional files containing utility aliases (`alias_maps.cfg` and `alias_stuff.cfg`), you should take a look at them, you might find something interesting !
+One core file that allows `practice_gui.cfg` to add a visual feedback (`practice_gui_hint.cfg`).
+And a `practice_gui_user.cfg` file to enable easy modifications with some documentation, this very last one should be the only one to be modified unless you want to break everything !
 
 ## Installation
 0. For experienced cfg user only : If you are using an `autoexec`, you can just paste this line into it so you just have to type `practice_gui` in console to use this config (after dropping the files into the right folder).
