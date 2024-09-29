@@ -97,7 +97,7 @@ I'm currently working on this set of configs, I'm planning on adding :
 - Change knife skin on a keypress
 - Map configs including default map spawns aliases on radialradios wheel with map automatic detection... Maybe?
 - Grenades / Wallbang setups... Maybe?
-- Hitreg debugging `praccmds`
+- Hitreg debugging `praccmd`
 
 
 ### NEW UPDATE
