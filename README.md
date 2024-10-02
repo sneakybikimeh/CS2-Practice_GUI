@@ -97,7 +97,6 @@ Have fun practicing for the grind ! :)
 I'm currently working on this set of configs, I'm planning on adding :
 - Current Map feedback in the GUI
 - Change knife skin on a keypress
-- Hitreg debugging `praccmd`
 - Control over the gui_interface through custom radialradios wheel ! > `practice_gui` :
 - Map configs including default map spawns aliases on radialradios wheel with map automatic detection... Maybe?
 - Grenades / Wallbang setups... Maybe?
@@ -110,6 +109,7 @@ I'm currently working on this set of configs, I'm planning on adding :
 - Reworked the loadbar interface completely for fancier and more accurate animation, even added custom color templates !
 - Added `prac_showpos` support
 - Added many niche aliases to bind in `practice_gui_user.cfg` 
+- Added Hitreg debugging `prachitreg`
 
 #### MODIFIED :
 - Improved the behaviour of `praccolor` in the GUI
