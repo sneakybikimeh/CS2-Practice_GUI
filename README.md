@@ -132,3 +132,10 @@ I'm currently working on this set of configs, I'm planning on adding :
 - `pracman` has not been updated yet, consider it outdated
 - `pracset` might have unexpected behaviour when used manually, will have to look into it
 - It has been a big merge so some stuff might have broke without notice !
+
+#### FIXES :
+- Many aliases were not loaded properly leading to random errors in console and weird behaviours in some cases, it should all be fixed by now !
+- Renamed bhop aliases for better clarity.
+- Cleaned up a few old deprecated commands that remained executed randomly.
+- Reduced bot_quota to 20, just in case someone had the idea of launching the game with launch parameter `-maxplayers_override 64`.
+- Switched Sound Feedback ON by default.
