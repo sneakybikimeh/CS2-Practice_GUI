@@ -7,6 +7,11 @@ It comes with two additional files containing utility aliases (`alias_maps.cfg` 
 One core file that allows `practice_gui.cfg` to add a visual feedback (`practice_gui_hint.cfg`).
 And a `practice_gui_user.cfg` file to enable easy modifications with some documentation, this very last one should be the only one to be modified unless you want to break everything !
 
+## POST UPDATE [19th Dec.](https://steamcommunity.com/games/CSGO/announcements/detail/529833471389991083)
+Due to some changes from this update, various stuff might be broken at the moment.
+
+Overall, great improvements can be expected soon™ thanks to the new features provided by valve !
+
 ## Installation
 0. For experienced cfg user only : If you are using an `autoexec`, you can just paste this line into it so you just have to type `practice_gui` in console to use this config (after dropping the files into the right folder).
 
