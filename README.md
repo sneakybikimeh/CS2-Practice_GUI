@@ -11,6 +11,7 @@ And a `practice_gui_user.cfg` file to enable easy modifications with some docume
 Due to some changes from this update, various stuff might be broken at the moment.
 
 Overall, great improvements can be expected soon™ thanks to the new features provided by valve !
+
 PS : After noticing many core issues, I'm considering rewriting everything from scratch, so it might take a bit of time, I'll try to maintain this version to keep it usable until then, soon™ is an actual one.. :x
 
 ## Installation
