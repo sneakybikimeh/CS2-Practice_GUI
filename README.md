@@ -43,9 +43,8 @@ PS : After noticing many core issues, I'm considering rewriting everything from 
 
 5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
 
-6. [!CAUTION]
-   Due to the way practice_guy currently implements hud_hints when triggering an option, it is highly recommended to restart your game before joining a VAC secured server to avoid the risks of being flagged for abusing exec_async.
-   If you want to remove that risk, you can delete practice_gui_hints.cfg which reloads recursively the hud_hint entities (You won't get the HUD feedback if you do so). 
+6. **Due to the way practice_guy currently implements hud_hints when triggering an option, it is highly recommended to restart your game before joining a VAC secured server to avoid the risks of being flagged for abusing exec_async.
+   If you want to remove that risk, you can delete practice_gui_hints.cfg which reloads recursively the hud_hint entities (You won't get the HUD feedback if you do so).**
 
 ## Customization
 If you want to modify stuff in this config, I would recommend you to use `practice_gui_user.cfg`, you will find some documentation on how to do so, modifying the `practice_gui.cfg` will probably break the GUI in many ways.
