@@ -7,12 +7,18 @@ It comes with two additional files containing utility aliases (`alias_maps.cfg` 
 One core file that allows `practice_gui.cfg` to add a visual feedback (`practice_gui_hint.cfg`).
 And a `practice_gui_user.cfg` file to enable easy modifications with some documentation, this very last one should be the only one to be modified unless you want to break everything !
 
-## POST UPDATE [19th Dec.](https://steamcommunity.com/games/CSGO/announcements/detail/529833471389991083)
+## POST UPDATE [19th Dec. 2024](https://steamcommunity.com/games/CSGO/announcements/detail/529833471389991083) :
 Due to some changes from this update, various stuff might be broken at the moment.
 
 Overall, great improvements can be expected soon™ thanks to the new features provided by valve !
 
 PS : After noticing many core issues, I'm considering rewriting everything from scratch, so it might take a bit of time, I'll try to maintain this version to keep it usable until then, soon™ is an actual one.. :x
+
+## POST UPDATE [15th January 2025](https://steamcommunity.com/games/CSGO/announcements/detail/518577002799693839) :
+[!CAUTION]
+   Due to the way practice_guy currently implements hud_hints when triggering an option and recent updates to VAC; it is highly recommended to restart your game before joining a VAC secured server to avoid the risks of being flagged for abusing exec_async.
+   If you want to remove that risk, you can delete practice_gui_hints.cfg which reloads recursively the hud_hint entities (You won't get the HUD feedback if you do so).
+Anyone using practice_gui outside of its purposed scope will be the only one responsible of its consequences, so use it at your own risks until I get more info about it !
 
 ## Installation
 0. For experienced cfg user only : If you are using an `autoexec`, you can just paste this line into it so you just have to type `practice_gui` in console to use this config (after dropping the files into the right folder).
@@ -37,6 +43,10 @@ PS : After noticing many core issues, I'm considering rewriting everything from 
         practice_gui
 
 5. Your console should now display the GUI; otherwise you must have a path issue and the file did not load correctly.
+
+6. [!CAUTION]
+   Due to the way practice_guy currently implements hud_hints when triggering an option, it is highly recommended to restart your game before joining a VAC secured server to avoid the risks of being flagged for abusing exec_async.
+   If you want to remove that risk, you can delete practice_gui_hints.cfg which reloads recursively the hud_hint entities (You won't get the HUD feedback if you do so). 
 
 ## Customization
 If you want to modify stuff in this config, I would recommend you to use `practice_gui_user.cfg`, you will find some documentation on how to do so, modifying the `practice_gui.cfg` will probably break the GUI in many ways.
