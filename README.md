@@ -15,10 +15,9 @@ Overall, great improvements can be expected soon™ thanks to the new features p
 PS : After noticing many core issues, I'm considering rewriting everything from scratch, so it might take a bit of time, I'll try to maintain this version to keep it usable until then, soon™ is an actual one.. :x
 
 ## POST UPDATE [15th January 2025](https://steamcommunity.com/games/CSGO/announcements/detail/518577002799693839) :
-**CAUTION
-   Due to the way practice_guy currently implements hud_hints when triggering an option and recent updates to VAC; it is highly recommended to restart your game before joining a VAC secured server to avoid the risks of being flagged for abusing exec_async.
+   **Warning : Due to the way practice_guy currently implements hud_hints when triggering an option and recent updates to VAC; it is highly recommended to restart your game before joining a VAC secured server to avoid the risks of being flagged for abusing exec_async.
    If you want to remove that risk, you can delete practice_gui_hints.cfg which reloads recursively the hud_hint entities (You won't get the HUD feedback if you do so).
-Anyone using practice_gui outside of its purposed scope will be the only one responsible of its consequences, so use it at your own risks until I get more info about it !**
+   Anyone using practice_gui outside of its purposed scope will be the only one responsible of its consequences, so use it at your own risks until I get more info about it !**
 
 ## Installation
 0. For experienced cfg user only : If you are using an `autoexec`, you can just paste this line into it so you just have to type `practice_gui` in console to use this config (after dropping the files into the right folder).
