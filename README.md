@@ -20,6 +20,11 @@ PS : After noticing many core issues, I'm considering rewriting everything from 
    
    **Anyone using practice_gui outside of its purposed scope will be the only one responsible of its consequences, so use it at your own risks until I get more info about it !**
 
+## POST UPDATE [28th January 2025](https://steamcommunity.com/games/CSGO/announcements/detail/529839807839339586) :
+Due to the pipe feature being removed from the game, the GUI is now fully broken with a couple other practice features.
+I did my best to keep this project going with all the restrictions that valve put on the way in order to combat cfg abuse, but it's now reaching a point where updating/maintaining practice_gui is more of an annoying struggle than a fun project to help the playerbase improve their game knowledge.
+So I will leave it on the side and consider coming back to it once valve is done tempering with cfgs.
+
 ## Installation
 0. For experienced cfg user only : If you are using an `autoexec`, you can just paste this line into it so you just have to type `practice_gui` in console to use this config (after dropping the files into the right folder).
 
